@@ -1,0 +1,11 @@
+[workspace]
+authors = ["PaulKMueller <paulkonstantinmueller@gmail.com>"]
+channels = ["conda-forge"]
+name = "puzzle"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+streamlit = ">=1.54.0,<2"
